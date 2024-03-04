@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Outfit" />
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    *{margin: 0; padding: 0;}
+    body{font-size: 15px; background-color: hsl(212, 45%, 89%);}
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .outfitFont{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    }
+    .card-wrapper{
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    }
+    .card{margin: 15px auto; padding: 15px; background-color: white; max-width: 375px; }
+    .card-body{padding: 15px 0;}
+    .text-center{text-align: center;}
+    .border-radius{border-radius: 10px;}
+    .w-100{width: 100%;}
+    .h3-heading{font-size: 15px; font-weight: bold; padding-bottom: 15px;}
+    .text-color-grayish-blue{color: hsl(220, 15%, 55%);} 
+    .text-color-dark-blue{color:  hsl(218, 44%, 22%);} 
+    .attribution{padding: 10px 0;}
+  </style>
+</head>
+<body class="outfitFont">
+  <div class="card-wrapper">
+
+
+  <div class="card text-center border-radius">
+    <img class="border-radius w-100" src="images/image-qr-code.png" alt="QR Code" />
+    <div class="card-body">
+      <h3 class="h3-heading text-color-dark-blue">Improve your front-end skills by building projects</h3>
+    
+      <p class=" text-color-grayish-blue">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      
+    </div>
+ 
+  </div>
+</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Manda Kadam</a>.
+  </div>
+</body>
+</html>
